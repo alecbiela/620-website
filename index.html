@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
     <title>HCIN620 Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
@@ -55,7 +56,7 @@
             <div class="card solution-card">
               <div class="card-body">
                 <h2 class="card-title">The <span class="solution">Solution</span>:</h2>
-                <p class="card-text">Looking to have a dashboard measure the student’s progress and success. The dashboard will be a tracker for the student as well as his or her advisors. The dashboard will display key milestones for the student as well as specific alerts to let him or her know of upcoming deadlines.</p>
+                <p class="card-text">An interactive dashboard where students and academic advisors can easily track and monitor progress toward degree completion at a glance. Past courses (with credits and final grades), present enrollment, and future requirements will be pulled from the student's information and graphically displayed. The dashboard will display key milestones for the student as well as specific alerts to let them know of time-sensitive information. Students can be shown options to fulfill requirements in future semesters (such as a list of possible elective courses).</p>
               </div>
             </div>
           </div>
@@ -68,7 +69,11 @@
             <div class="card audience-card">
               <div class="card-body">
                 <h2 class="card-title">Audience and Stakeholders</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="card-text">Anyone involved with a student's individual progress toward a degree is considered a stakeholder in this development. Primarily, the two groups with the highest prominence are the students themselves and the academic advisors that service student requests pertaining to their degree requirements.</p>
+                <h3>The Students</h3>
+                <p class="card-text">With a comprehensive, intuitive display of outstanding degree requirements as well as those already completed, students can more easily plan for their upcoming classes as well as feel a better sense of gratification seeing a more tangible representation of their end goal. It's also important that as much feedback is collected from the student body as possible; their comments and concerns can be translated into functional requirements for future versions of the service to deliver the best experience possible.</p>
+                <h3>Academic Advisors</h3>
+                <p class="card-text">Academic advisors would also have much to gain from this service being implemented. Many individual colleges within the university currently use a pen-and-paper worksheet system for tracking students' degree requirments, and students often need to meet with them to discuss this and plan for future semesters. The RIT Degree Tracker has the potential to cut down on much of this communication, freeing up academic advisors for more complex assignments. In order to address as many concerns as possible, they should be consulted early and often throughout the development process to ensure that the service is an adequate replacement for their meetings, and that it contains all necessary and pertinent information.</p>
               </div>
             </div>
           </div>
@@ -89,10 +94,10 @@
         <h2 class="text-center mb-4">Meet the Team</h2>
         <div class="row">
           <div class="col-12 col-md-6">
-            <div class="card mb-3">
-              <div class="row">
+            <div class="card">
+              <div class="row align-items-center">
                 <div class="col-4">
-                  <img class="img-fluid rounded-start" src="img/betsy.jpg" alt="Photo of Betsy" />
+                  <img class="img-fluid" src="img/betsy.jpg" alt="Photo of Betsy" />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
@@ -104,10 +109,10 @@
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="card mb-3">
-              <div class="row">
+            <div class="card">
+              <div class="row align-items-center">
                 <div class="col-4">
-                  <img class="img-fluid rounded-start" src="img/margaret.jpg" alt="Photo of Margaret" />
+                  <img class="img-fluid" src="img/margaret.jpg" alt="Photo of Margaret" />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
@@ -120,10 +125,10 @@
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="card mb-3">
-              <div class="row">
+            <div class="card">
+              <div class="row align-items-center">
                 <div class="col-4">
-                  <img class="img-fluid rounded-start" src="img/natalia.png" alt="Photo of Natalia" />
+                  <img class="img-fluid" src="img/natalia.png" alt="Photo of Natalia" />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
@@ -135,10 +140,10 @@
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="card mb-3">
-              <div class="row">
+            <div class="card">
+              <div class="row align-items-center">
                 <div class="col-4">
-                  <img class="img-fluid rounded-start" src="img/nikita.png" alt="Photo of Nikita" />
+                  <img class="img-fluid" src="img/nikita.png" alt="Photo of Nikita" />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
@@ -150,15 +155,15 @@
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="card mb-3">
-              <div class="row">
+            <div class="card">
+              <div class="row align-items-center">
                 <div class="col-4">
-                  <img class="img-fluid rounded-start" src="img/alec.png" alt="Photo of Alec" />
+                  <img class="img-fluid" src="img/alec.png" alt="Photo of Alec" />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
                     <h3 class="card-title">Alec</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="card-text">Full-stack web developer with a background in marketing from southwestern Connecticut. Originally graduated with a bachelor's in Game Design &amp; Development and now pursuing a Master&apos;s in Human-Computer Interaction. Seeking a career in the UX engineering field with a focus on accessible design. Outside of school, find me on the disc golf course, in my makerspace, or with my friends!</p>
                   </div>
                 </div>
               </div>

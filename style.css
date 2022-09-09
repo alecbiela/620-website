@@ -22,11 +22,11 @@
 .tools-technologies{display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; list-style: none; margin: 0; margin-top: 20px; padding: 0;}
 .tools-technologies li{display: inline-block; margin: auto; text-align: center;}
 .tools-technologies li strong{font-size: 20px;}
-.tools-technologies .tt-img{width: 150px; height: 150px; margin: 0; margin-bottom: 8px; padding: 0; display: block;}
+.tools-technologies .tt-img{width: 120px; height: 120px; margin: 0 auto 8px; padding: 0; display: block;}
 
 /* Team photos */
-#meet_the_team .card{height: calc(100% - 30px);}
-#meet_the_team .card-body{padding-top: 0;}
+#meet_the_team .card{height: calc(100% - 30px); margin-bottom: 30px; border: none;}
+#meet_the_team .card img{margin-top: 15px; border-radius: 50%;}
 
 /* Rules and Covenants */
 .card.rules-card{background: #0a3057; padding: 15px;}
