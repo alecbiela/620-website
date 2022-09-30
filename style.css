@@ -21,8 +21,8 @@
 .problem-card .card-text, .solution-card .card-text, .audience-card .card-text{font-size: 18px; line-height: 28px;}
 
 /* Tools and Tech */
-.tools-technologies{display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; list-style: none; margin: 0; margin-top: 20px; padding: 0;}
-.tools-technologies li{display: inline-block; margin: auto; text-align: center;}
+.tools-technologies{list-style: none; margin: 0; margin-top: 20px; padding: 0; column-count: 2;}
+.tools-technologies li{display: inline-block; margin: auto; text-align: center; min-width: 180px; margin-bottom: 25px;}
 .tools-technologies li strong{font-size: 20px;}
 .tools-technologies .tt-img{width: 120px; height: 120px; margin: 0 auto 8px; padding: 0; display: block;}
 
@@ -35,6 +35,17 @@
 .card.rules-card *{color: white;}
 .team-rules li{margin-bottom: 8px;}
 
+/* Schedule */
+.schedule-wrapper{
+    background: #dcebfb;
+    padding: 15px;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 2px 7px #aaa;
+}
+
 /* General Typography */
 *:not(i){font-family: 'Nunito Sans', sans-serif;}
 h2{font-size: 36px; line-height: 42px; font-weight: bold;}
@@ -45,4 +56,5 @@ header,section{margin-bottom: 60px;}
 .card.questions-card{background: #0a3057; padding: 15px;}
 .card.questions-card *{color: white;}
 .ci-questions li{margin-bottom: 8px;}
+#ci-intro p, #interview-summary p{font-size: 18px; line-height: 22px;}
 /* *** END CONTEXTUAL INQUIRY *** */
