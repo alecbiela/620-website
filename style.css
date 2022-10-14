@@ -58,3 +58,16 @@ header,section{margin-bottom: 60px;}
 .ci-questions li{margin-bottom: 8px;}
 #ci-intro p, #interview-summary p{font-size: 18px; line-height: 22px;}
 /* *** END CONTEXTUAL INQUIRY *** */
+
+/* *** PERSONAS *** */
+.persona-heading{margin-bottom: 40px;}
+.persona{border: 1px solid #DFDFDF; box-shadow: 0px 4px 10px #555; padding: 60px 15px;}
+.persona .imgCol .persona-pic{max-width: 240px; width: 100%; height: auto; display: block; margin: auto;}
+.persona .persona-title{font-weight: bold;}
+.persona .persona-subtitle{font-style: italic;}
+.persona h4{color: #1170D2;}
+.persona .infoCol p{margin-bottom: 30px;}
+/* .persona.primary h3{color: #EEF0F7;} */
+/* .persona.alternate h3{color: #FCFAF5;} */
+/* .persona.anti h3{color: #FCF0EE;} */
+/* *** END PERSONAS *** */
