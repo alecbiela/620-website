@@ -71,3 +71,10 @@ header,section{margin-bottom: 60px;}
 /* .persona.alternate h3{color: #FCFAF5;} */
 /* .persona.anti h3{color: #FCF0EE;} */
 /* *** END PERSONAS *** */
+
+
+/* *** BEGIN HIFI *** */
+#hifi h4{font-weight: bold;}
+.bold-ol{counter-reset: item; list-style-position: outside;}
+.bold-ol li {display: block; padding-top: 8px;}
+.bold-ol li:before {content: counter(item) ". "; counter-increment: item; font-weight: bold; margin-left: -20px;}

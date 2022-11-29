@@ -13,7 +13,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div id="hifi" class="wrapper">
       <header>
           <div class="nav-top">
             <div class="container-fluid">
@@ -46,18 +46,25 @@
         <div class="row mt-3">
           <div class="col-12 col-sm-10 col-md-8 offset-0 offset-sm-1 offset-md-2">
             <h2>Prototypes</h2>
-            
-            <h3>Desktop</h3>
-            {Desktop Prototype}
-            <!-- <p>Much of the work done for our Lo-Fi prototyping can be found in the Figma project below. For the best viewing experience, consider expanding the frame to view it in fullscreen using the 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 style="margin-top: 60px;">Desktop</h3>
+            <p><strong>Tip:</strong> Use the 
               <span class="svg-container mobile_viewer_app--fullscreenIcon--nauOP"><svg aria-hidden="true" class="svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M14.54 4.168l-3.187 3.186-.708-.708 3.197-3.197.753-.449H11V2h5v5h-1V3.334l-.46.834zM3.46 13.832l3.186-3.186.708.708-3.198 3.197-.752.449H7v1H2v-5h1v3.666l.46-.834z" fill-rule="nonzero" fill-opacity="1" fill="#000" stroke="none"></path></svg></span>
-              button at the top-right.
-            </p> -->
-            <h3>Mobile (Smartphone)</h3>
-            {Mobile Prototype}
-            <h3>Video Walkthrough</h3>
+              button at the top-right of the frame to view the prototype in full-screen mode.
+            </p>
+            <div class="ratio ratio-4x3">
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhClgra6vK9LITwIlbGC9JC%2FDegree-Tracker---Hi-Fi-Prototype%3Fpage-id%3D0%253A1%26node-id%3D284%253A5977%26viewport%3D2548%252C130%252C0.14%26scaling%3Dscale-down%26starting-point-node-id%3D284%253A5977" allowfullscreen></iframe>
+            </div>
+
+            <h3 style="margin-top: 60px;">Mobile (Smartphone)</h3>
+            <p><strong>Tip:</strong> Use the 
+              <span class="svg-container mobile_viewer_app--fullscreenIcon--nauOP"><svg aria-hidden="true" class="svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M14.54 4.168l-3.187 3.186-.708-.708 3.197-3.197.753-.449H11V2h5v5h-1V3.334l-.46.834zM3.46 13.832l3.186-3.186.708.708-3.198 3.197-.752.449H7v1H2v-5h1v3.666l.46-.834z" fill-rule="nonzero" fill-opacity="1" fill="#000" stroke="none"></path></svg></span>
+              button at the top-right of the frame to view the prototype in full-screen mode.
+            </p>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); display: block; margin: auto;" width="450" height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhClgra6vK9LITwIlbGC9JC%2FDegree-Tracker---Hi-Fi-Prototype%3Fpage-id%3D5%253A2%26node-id%3D197%253A2633%26viewport%3D4967%252C1405%252C0.62%26scaling%3Dscale-down%26starting-point-node-id%3D197%253A2633" allowfullscreen></iframe>
+            <h3 style="margin-top: 60px;">Video Walkthrough</h3>
             <div class="ratio ratio-16x9">
-              {Video Goes Here}
+              <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="RIT Degree Tracker Hi-Fi Prototypes Video Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -66,9 +73,135 @@
         <div class="row mt-3">
           <div class="col-12 col-sm-10 col-md-8 offset-0 offset-sm-1 offset-md-2">
             <h2>User Testing and Evaluation</h2>
+            <p>After we completed our HiFi prototype, we planned to test it on user profiles. We asked ourselves the following research questions:
+              <ol>
+                <li>Is the presented degree tracking interface quicker and easier to use compared to the previous SIS interface?</li>
+                <li>Is the presented degree tracking interface preferred by users compared to the previous SIS interface?</li>
+              </ol>
+            </p>
             <h3>Setup and Methodology</h3>
-            <h3>Results</h3>
-            <h3>Summary and Conclusions</h3>
+
+            <h4>Participants</h4>
+            <p>To test our research questions, we tested 5 current RIT students who are already familiar with SIS. Although testing current users of the system may introduce bias, we thought it would be best to use direct user personas rather than user surrogates who are college students but not RIT students because they may catch any desirable functionality our prototype is missing and may be more critical of our system and the differences between them.</p>
+            <h4>Session Outline and Timing</h4>
+            <p>Session time: 32 minutes<br/>
+              <ol style="list-style: none; margin: 0; padding: 0;">
+                <li>5 minutes: background questions and orientation script</li>
+                <li>Next 2 minutes: think aloud practice</li>
+                <li>Next 15 minutes: Scenarios and task completion, post-task questions</li>
+                <li>Next 5 minutes: Mobile evaluation and questions</li>
+                <li>Next 5 minutes: post-test questionnaire, debrief and follow up questions</li>
+              </ol>
+            </p>
+
+            <h4>Test Plan Details</h4>
+            <p>We conducted a within-subjects A/B experiment where we tested our version against the existing SIS academic requirements. The participant completed three tasks, varying which version is shown first (SIS vs ours).</p>
+            <table class="table table-responsive">
+              <thead>
+                <tr>
+                  <th>Participant</th>
+                  <th colspan="6">Task and Website Version Order</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>P<sub>1</sub></td>
+                  <td>A<sub>1</sub></td>
+                  <td>B<sub>1</sub></td>
+                  <td>A<sub>2</sub></td>
+                  <td>B<sub>2</sub></td>
+                  <td>A<sub>3</sub></td>
+                  <td>B<sub>3</sub></td>
+                </tr>
+                <tr>
+                  <td>P<sub>2</sub></td>
+                  <td>B<sub>1</sub></td>
+                  <td>A<sub>1</sub></td>
+                  <td>B<sub>2</sub></td>
+                  <td>A<sub>2</sub></td>
+                  <td>B<sub>3</sub></td>
+                  <td>A<sub>3</sub></td>
+                </tr>
+                <tr>
+                  <td>P<sub>3</sub></td>
+                  <td>A<sub>1</sub></td>
+                  <td>B<sub>1</sub></td>
+                  <td>A<sub>2</sub></td>
+                  <td>B<sub>2</sub></td>
+                  <td>A<sub>3</sub></td>
+                  <td>B<sub>3</sub></td>
+                </tr>
+                <tr>
+                  <td>P<sub>4</sub></td>
+                  <td>B<sub>1</sub></td>
+                  <td>A<sub>1</sub></td>
+                  <td>B<sub>2</sub></td>
+                  <td>A<sub>2</sub></td>
+                  <td>B<sub>3</sub></td>
+                  <td>A<sub>3</sub></td>
+                </tr>
+                <tr>
+                  <td>P<sub>5</sub></td>
+                  <td>A<sub>1</sub></td>
+                  <td>B<sub>1</sub></td>
+                  <td>A<sub>2</sub></td>
+                  <td>B<sub>2</sub></td>
+                  <td>A<sub>3</sub></td>
+                  <td>B<sub>3</sub></td>
+                </tr>
+              </tbody>
+              <caption>Table 1. Five participants (P) completed this study with randomized ordering of which interface is shown first. A represents RIT&apos;s SIS system and B represents our prototype. The subscript numbers represent the task number. All participants completed all tasks in the same order with varying interface order.</caption>
+            </table>
+
+            <h4>Task List</h4>
+            <ol class="bold-ol">
+              <li><strong>Find the credits or classes needed to graduate.</strong><br/>
+                <span style="font-style: italic;">Success Criteria</span><br/>
+                <span style="text-decoration: underline;">Preference:</span> The participant&apos;s preference between SIS and the new site will be noted during the follow up questions of the test.<br/>
+                <span style="text-decoration: underline;">Performance:</span> If the user completes the task with fewer than two mistakes, it will be deemed successful. White using the speak-out-loud technique, the task should not take longer than 20 seconds to complete.<br/><br/>
+                <span style="font-style: italic;">Measurements</span><br/>
+                User preference, Time on task and Mouse clicks
+              </li>
+              <li><strong>Find your GPA.</strong><br/>
+                <span style="font-style: italic;">Success Criteria</span><br/>
+                <span style="text-decoration: underline;">Preference:</span> The participant&apos;s preference between SIS and the new site will be noted during the follow up questions of the test.<br/>
+                <span style="text-decoration: underline;">Performance:</span> If the user completes the task with fewer than two mistakes, it will be deemed successful. White using the speak-out-loud technique, the task should not take longer than 20 seconds to complete.<br/><br/>
+                <span style="font-style: italic;">Measurements</span><br/>
+                User preference, Time on task and Mouse clicks     
+              </li>
+              <li><strong>Find current course details.</strong><br/>
+                <span style="font-style: italic;">Success Criteria</span><br/>
+                <span style="text-decoration: underline;">Preference:</span> The participant&apos;s preference between SIS and the new site will be noted during the follow up questions of the test.<br/>
+                <span style="text-decoration: underline;">Performance:</span> If the user completes the task with fewer than two mistakes, it will be deemed successful. White using the speak-out-loud technique, the task should not take longer than 20 seconds to complete.<br/><br/>
+                <span style="font-style: italic;">Measurements</span><br/>
+                User preference, Time on task and Mouse clicks
+              </li>
+            </ol>
+
+            <h4>Scenarios</h4>
+            <ol class="bold-ol">
+              <li><strong>Find the credits or classes needed to graduate</strong><br/>
+                &ldquo;You are looking to see how many credits/courses are left to take to graduate. How would you find this?&rdquo;
+              </li>
+              <li><strong>Find your GPA</strong><br/>
+                &ldquo;Your major requirements require you to have above a 3.0 to remain in your program. How do you check your GPA?&rdquo;
+              </li>
+              <li><strong>Find current course details</strong><br/>
+                &ldquo;You want to check the time and days one of the courses meets. How would you do this?&rdquo;
+              </li>
+            </ol>
+
+            <h4>Test Environment</h4>
+            <p>The tests were conducted through a virtual zoom meeting. The participants joined the zoom meeting from their personal computer with a moderator and recorder watching. The moderator gave the participant control of their screen to complete scenarios on either the SIS or the new website.</p>
+            
+            <h4>Test Personnel Roles</h4>
+              <ul style="list-style: none; margin: 0; padding: 0;">
+                <li style="padding-bottom: 8px;"><span style="text-decoration: underline;">Moderator:</span> The moderator is the sole communicator to the participant during the course of the study. The moderator walks the participant through the background questions, orientation script, scenarios, post-task questions, mobile feedback, post-test questionnaire and debrief. </li>
+                <li><span style="text-decoration: underline;">Recorder:</span> The recorder takes notes on interactions between the participant and the software, as well as the participant&apos;s response to questions. The recorder can communicate with the moderator if necessary during the test through a private chat. </li>
+              </ul>
+
+            <h3 style="padding-top: 60px;">Results</h3>
+            <h3 style="padding-top: 60px;">Summary and Conclusions</h3>
           </div>
         </div>
       </section>
