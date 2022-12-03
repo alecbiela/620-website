@@ -42,34 +42,64 @@
           </div>
       </header>
 
-      <section id="lf-intro" class="container">
+      <section id="anchor_nav" class="container">
+        <div class="row">
+          <div class="col-12 col-sm-10 col-md-8 offset-0 offset-sm-1 offset-md-2">
+            <div class="anchor-inner">
+              <p id="pnav">Jump To Section:</p>
+              <nav id="anchor_links" aria-label="Page" aria-describedby="pnav">
+                <ul>
+                  <li><a class="page-anchor" href="#hifi_prototypes">Prototypes</a></li>
+                  <li><a class="page-anchor" href="#hifi_video">Video Walkthrough</a></li>
+                  <li><a class="page-anchor" href="#hifi_usertesting">User Testing Setup</a></li>
+                  <li><a class="page-anchor" href="#hifi_results">Test Results</a></li>
+                  <li><a class="page-anchor" href="#hifi_conclusion">Conclusions</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hifi_prototypes" class="container">
         <div class="row mt-3">
           <div class="col-12 col-sm-10 col-md-8 offset-0 offset-sm-1 offset-md-2">
             <h2>Prototypes</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h3 style="margin-top: 60px;">Desktop</h3>
-            <p><strong>Tip:</strong> Use the 
+            <p>The move between low-fidelity wireframes and high-fidelity prototypes was performed by adding general typography as well as adding animations which modeled how users could interact with various UI elements to change the information displayed on-screen.</p>
+            <p>The RIT brand color palette and general style guide was used as a basis for color and font, although small additions were needed (such as the color variations of the calendar tiles). Most of the structural changes that arose when moving to high-fidelity were a result of insufficient color contrast (the inability for users to visually distinguish between two elements on the page). Conversely, it also enabled us to change some text to visual elements and use color contrast to convey information (such as the degree progress bars near the top of the page. Certain UI  elements have been refactored to eliminate the “Russian Doll” effect of many containers within containers; this can be seen primarily within the dropdowns in the Academic Requirements section. Core UI elements and large sections of information remained unchanged, and the design is still represented in a single-page application (SPA).</p>
+            <figure>
+              <img class="img-fluid" src="img/hifi/AcademicRequirements.png" alt="An image showing the high fidelity (left) and low fidelity (right) prototype next to each other comparing and contrasting how they display academic requirement concentrations." />
+              <figcaption>Figure 1: The concentration requirements were brought to the top level on the HiFi prototype to help remove the “Russian Doll” effect of having many containers in containers.</figcaption>
+            </figure>
+            <p>All Hi-Fi design creation was done in Figma using “Flows” to prototype the various interactions that would cause the display of information to change on the page. Within the prototype, elements such as dropdowns, menus, tooltips, and popovers have been modeled. It should be noted that not all possible interactions have been modeled, but at least one example of each different type is accessible (e.g. Not all dropdowns have been made interactable, but at least one can be used to test how functionality would work across all instances of the same element).</p>
+            <h3 style="margin-top: 40px;">Desktop</h3>
+            <p><strong>Tip:</strong> Click inside the frame to show the controls, then use the 
               <span class="svg-container mobile_viewer_app--fullscreenIcon--nauOP"><svg aria-hidden="true" class="svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M14.54 4.168l-3.187 3.186-.708-.708 3.197-3.197.753-.449H11V2h5v5h-1V3.334l-.46.834zM3.46 13.832l3.186-3.186.708.708-3.198 3.197-.752.449H7v1H2v-5h1v3.666l.46-.834z" fill-rule="nonzero" fill-opacity="1" fill="#000" stroke="none"></path></svg></span>
               button at the top-right of the frame to view the prototype in full-screen mode.
             </p>
             <div class="ratio ratio-4x3">
               <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhClgra6vK9LITwIlbGC9JC%2FDegree-Tracker---Hi-Fi-Prototype%3Fpage-id%3D0%253A1%26node-id%3D284%253A5977%26viewport%3D2548%252C130%252C0.14%26scaling%3Dscale-down%26starting-point-node-id%3D284%253A5977" allowfullscreen></iframe>
             </div>
-
-            <h3 style="margin-top: 60px;">Mobile (Smartphone)</h3>
-            <p><strong>Tip:</strong> Use the 
+            <h3 style="margin-top: 40px;">Mobile (Smartphone)</h3>
+            <p><strong>Tip:</strong> Click inside the frame to show the controls, then use the 
               <span class="svg-container mobile_viewer_app--fullscreenIcon--nauOP"><svg aria-hidden="true" class="svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M14.54 4.168l-3.187 3.186-.708-.708 3.197-3.197.753-.449H11V2h5v5h-1V3.334l-.46.834zM3.46 13.832l3.186-3.186.708.708-3.198 3.197-.752.449H7v1H2v-5h1v3.666l.46-.834z" fill-rule="nonzero" fill-opacity="1" fill="#000" stroke="none"></path></svg></span>
               button at the top-right of the frame to view the prototype in full-screen mode.
             </p>
             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); display: block; margin: auto;" width="450" height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhClgra6vK9LITwIlbGC9JC%2FDegree-Tracker---Hi-Fi-Prototype%3Fpage-id%3D5%253A2%26node-id%3D197%253A2633%26viewport%3D4967%252C1405%252C0.62%26scaling%3Dscale-down%26starting-point-node-id%3D197%253A2633" allowfullscreen></iframe>
-            <h3 style="margin-top: 60px;">Video Walkthrough</h3>
+            <h3 id="hifi_video" style="margin-top: 40px;">Video Walkthrough</h3>
+            <p>Please see below for a short video walkthrough explaining the core UI elements of the service as well as various interactions and features found within.</p>
             <div class="ratio ratio-16x9">
-              <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="RIT Degree Tracker Hi-Fi Prototypes Video Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/35Ayv6y2D-w" title="RIT Degree Tracker Hi-Fi Prototypes Video Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <button type="button" id="transcript_toggle" aria-expanded="false" aria-controls="transcript_dropdown">Show/Hide Video Transcript</button>
+            <div id="transcript_dropdown" class="d-none">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
           </div>
         </div>
       </section>    
-      <section id="lofi-notes" class="int-sum container">
+
+      <section id="hifi_usertesting" class="int-sum container">
         <div class="row mt-3">
           <div class="col-12 col-sm-10 col-md-8 offset-0 offset-sm-1 offset-md-2">
             <h2>User Testing and Evaluation</h2>
@@ -200,8 +230,151 @@
                 <li><span style="text-decoration: underline;">Recorder:</span> The recorder takes notes on interactions between the participant and the software, as well as the participant&apos;s response to questions. The recorder can communicate with the moderator if necessary during the test through a private chat. </li>
               </ul>
 
-            <h3 style="padding-top: 60px;">Results</h3>
-            <h3 style="padding-top: 60px;">Summary and Conclusions</h3>
+            <h3 id="hifi_results" style="padding-top: 60px;">Results</h3>
+            <p>Our team interviewed five RIT graduate students to test three different scenarios in our prototype design and the current SIS system. The tasks included viewing the student&apos;s GPA, viewing the number of courses they have left to take, and viewing the times and dates of the courses offered. The importance of these tasks were later verified in a post-test questionnaire. Overall, the participants spent less time completing tasks and on average had lower mouse clicks using our prototype compared to the previous SIS system. Our prototype was preferred by all of the participants and received a 98.5 average SUS score compared to SIS which had a 32.5 average SUS score.</p>
+            <h4>Task Completion and Performance</h4>
+            <p>After completing the tasks on the current SIS website and our prototype, we had participants take a post-test questionnaire. On the questionnaire, we had participants rate the importance of the tasks they completed in the session. All of the participants felt that viewing the times and dates of the courses offered was very important, while 3 of them viewed seeing how many courses they had left as very important and 2 of them viewing that task as important. In regards to finding a student&apos;s GPA, 1 user found that task very important, 2 users found it important, while the other 2 users found it neutral and not important. On average, our scenarios were seen as Important or higher.</p>
+            <figure>
+              <img class="img-fluid" src="img/hifi/Tasks.png" alt="A grouped bar chart displaying the results of the survey question: how important are completing the following tasks to you?" />
+              <figcaption>Figure 2: Shows participant responses in regards to the task scenarios. &lsquo;Seeing the time and date my courses are offered&rsquo; is seen as very important, &lsquo;Seeing how many courses I have left to take&rsquo; were seen as very important and important, and &lsquo;Seeing my GPA&rsquo; ranged from Very important to Not Important&rsquo;. All scenarios had an average response of Important or higher.</figcaption>
+            </figure>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Question: How important are completing the following tasks to you?</th>
+                  <th>Average (Very important = 5, Important = 4, Neutral = 3, Not important = 2, Extremely unimportant = 1)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Seeing my GPA</td>
+                  <td>3.6</td>
+                </tr>
+                <tr>
+                  <td>Seeing how many courses I have left to take</td>
+                  <td>4.6</td>
+                </tr>
+                <tr>
+                  <td>Seeing the time and date my courses are offered</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+              <caption>Table 2: Importance of completing tasks.</caption>
+            </table>
+            <p>Another question on the questionnaire was their preference on the prototype. In addition to this question, the new prototype was unanimously preferred in the SUS questions; all 5 students strongly agreed that the new prototype was easy to use. Among the reasons why the new prototype was easy to use were that the information was easy to find, it was less overwhelming, it was a better visualization, and required minimal effort to find information. All 5 students strongly agreed in feeling confident using the new prototype as well as strongly agreeing that most people would learn this new system quickly.</p>
+            <figure>
+              <img class="img-fluid" src="img/hifi/DesignPreference.png" alt="Pie chart showing the surveyed users' design preference between the two variants." />
+              <figcaption>Figure 3: The users unanimously preferred Interface 1 [the prototype] over Interface 2 [the current SIS system]</figcaption>
+            </figure>
+            <p>In the SUS questions, four out of the five students agreed that the current SIS system is unnecessarily complex while one student strongly agreed. This appeared evident when tracking the number of clicks between the two different systems. There were far fewer clicks in using the new prototype compared to using the SIS system as well as less time performing the tasks in the new prototype.</p>
+
+            <p>Participants rated each interface using the system usability scale (SUS). The SUS scores for each interface per participant and the average score show that the usability of the RIT Degree Tracker (98.5) is above average, while the SIS system (32.5) is below. The average SUS score is 68 (Affairs, 2013).</p>
+
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Participants</th>
+                      <th>SUS Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>P1</td>
+                      <td>40</td>
+                    </tr>
+                    <tr>
+                      <td>P2</td>
+                      <td>47.5</td>
+                    </tr>
+                    <tr>
+                      <td>P3</td>
+                      <td>12.5</td>
+                    </tr>
+                    <tr>
+                      <td>P4</td>
+                      <td>30</td>
+                    </tr>
+                    <tr>
+                      <td>P5</td>
+                      <td>32.5</td>
+                    </tr>
+                    <tr>
+                      <td>Average</td>
+                      <td>32.5</td>
+                    </tr>
+                  </tbody>
+                  <caption>Table 3: SUS scores of the SIS webpage.</caption>
+                </table>
+              </div>
+              <div class="col-md-6 col-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Participants</th>
+                      <th>SUS Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>P1</td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>P2</td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>P3</td>
+                      <td>97.5</td>
+                    </tr>
+                    <tr>
+                      <td>P4</td>
+                      <td>95</td>
+                    </tr>
+                    <tr>
+                      <td>P5</td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Average</td>
+                      <td>98.5</td>
+                    </tr>
+                  </tbody>
+                  <caption>Table 4: SUS scores of the RIT Degree Tracker.</caption>
+                </table>
+              </div>
+            </div>
+            <h4>Improvements and Future Prototype Changes</h4>
+            <p><strong>Improvement 1:</strong><br/>Many participants had difficulties when finding how to show their GPA within our prototype (see Figure 4). All participants completed the task to find the GPA, but it took more time for them to see the eyeball icon and realize that is what needs to be pressed to view their GPA. In the post-task debrief, we asked for ways to make this action more clear. Text, displaying “Show GPA” and “Hide GPA” was suggested as an improvement. We discussed this issue as a group and concluded that we would change it to &lsquo;Show&rsquo; and &lsquo;Hide&rsquo; inside the circle and remove the eyeball icon entirely. Our variations can be seen in Figure 5. Additional testing should be done to show which version is best.</p>
+            <figure>
+              <img class="img-fluid" src="img/hifi/OverallProgress.png" alt="A screenshot of the desktop prototype with a box around the Overall GPA section. Participants did not know how to show their GPA initially." />
+              <figcaption>Figure 4: The current dashboard for users in our HiFi prototype. Participants found it challenging to see where they need to click in order to show the GPA.</figcaption>
+            </figure>
+            <figure>
+              <img class="img-fluid" style="max-width: 400px;" src="img/hifi/GPA.png" alt="A mockup showing 4 different design variations of the GPA widget." />
+              <figcaption>Figure 5: Other variations of the GPA calculator that we are considering as a replacement. The first one is the original, the second one includes &lsquo;Click to show&rsquo;, one includes &lsquo;Show GPA&rsquo;, and one includes an eye icon within the circle.</figcaption>
+            </figure>
+            <p><strong>Improvement 2:</strong><br/>While no participants commented on the issue, the moderators noticed that participants often tried to click a spot in the accordion other than the icon. Future versions of the prototype should allow the entire bar to be clickable.</p>
+            <figure>
+              <img class="img-fluid" src="img/hifi/AcademicRequirements.png" alt="A screenshot of the desktop prototype focused on the Academic Requirements Section. Boxes and text highlight sections outlined in the description." />
+              <figcaption>Figure 6: The participants often selected different spots on the accordion bar and didn't usually select the icon first. The participants later selected the icon after realizing it wouldn&rsquo;t open.</figcaption>
+            </figure>
+            
+            <p><strong>Other Issues to Consider:</strong><br/>For the &lsquo;currently enrolled courses&rsquo; section we chose to have the calendar view show first, with an option to switch to list view. On the desktop prototype, all 5 participants liked the calendar view. However, opinions became more split on which view they preferred. The mobile calendar mock-up view is limited because it only shows one day at a time. Although you can switch the day of the week, some participants said they would rather see the class list instead of the calendar view first. This was especially true for a student who was only taking a few classes and wasn&rsquo;t interested to see the time they were offered. One participant felt that the calendar was too squeezed-in for the mobile display. One participant suggested that they would prefer a list view with their time on the left of each course. Because opinions are split on this, It&rsquo;s unclear what the solution is for this.</p>
+            <figure>
+              <img class="img-fluid" src="img/hifi/mobile.png" alt="A screenshot of the desktop prototype focused on the Academic Requirements Section. Boxes and text highlight sections outlined in the description." />
+              <figcaption>Figure 7: The mobile &lsquo;course schedule&rsquo; section has both a calendar view (left) and a list view (right) of current courses. The mobile calendar view (left) shown by default shows only one day of the week at a time. The list view (right) shows all the courses, but doesn&rsquo;t show the times until they are clicked on.</figcaption>
+            </figure>
+
+            <h2 id="hifi_conclusion" style="padding-top: 60px;">Conclusions, Limitations, and Further Research</h2>
+            <p>Overall, our prototype was well received by participants. The new prototype is preferred over the SIS system unanimously. Although one user felt the SIS system has more information available, all five users did not feel that the SIS system was easy to use to perform the tasks at hand and strongly preferred the new prototype. The preference was apparent in the SUS scores as well; our prototype had a 98.5 score compared to the current SIS system at a 32.5 SUS score.</p>
+            <p>There are some limitations to this study. One limitation is that we only interviewed RIT students who happened to already use SIS. This can introduce potential bias towards the familiar system, and also improve the task completion rate because they are already familiar with the system. In our case, participants still performed much better on our system, but the difference might be even more apparent on new users. For example, one participant went to a very specific place on SIS to see a calendar view of their classes that we didn&rsquo;t know was there and was able to answer the question on finding their class times very quickly. None of the other participants thought to look in that spot and took much longer to complete that task. In addition to having only tested RIT students, the study was also conducted on 5 participants who were all graduate students. It would be ideal to additionally interview undergraduate students in a variety of majors from other Colleges and Universities.</p>
+            <p>There are still some places where our interface could improve such as improving the way to hide and show GPA, making more of the accordion clickable and improving the mobile calendar view. Further iterations of the design and testing on it is recommended before moving into development, as well as testing additional participant profiles.</p>
+            <h2>References</h2>
+            <p>Affairs, A. S. for P. (2013, September 6). <span style="font-style: italic;">System usability scale (SUS).</span> Usability.gov. Retrieved December 2, 2022, from <a href="https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html#:~:text=Interpreting%20Scores&text=Based%20on%20research%2C%20a%20SUS,to%20produce%20a%20percentile%20ranking">https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html#:~:text=Interpreting%20Scores&text=Based%20on%20research%2C%20a%20SUS,to%20produce%20a%20percentile%20ranking</a>.
+            </p>
           </div>
         </div>
       </section>

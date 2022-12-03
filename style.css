@@ -78,3 +78,22 @@ header,section{margin-bottom: 60px;}
 .bold-ol{counter-reset: item; list-style-position: outside;}
 .bold-ol li {display: block; padding-top: 8px;}
 .bold-ol li:before {content: counter(item) ". "; counter-increment: item; font-weight: bold; margin-left: -20px;}
+
+
+#anchor_nav p{margin-bottom: 0; font-weight: bold;}
+#anchor_nav .anchor-inner{background: #eef0f7; padding: 15px;}
+#anchor_nav nav ul{list-style: none; padding: 0; margin: 0; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;}
+#hifi header, #anchor_nav{margin-bottom: 30px;}
+
+#transcript_toggle{background: #0a3057; color: white; padding: 5px 10px; margin: 10px 0; border: 1px solid #0a3057; transition: all 300ms ease;}
+#transcript_toggle:hover, #transcript_toggle:focus{background: transparent; color: #0a3057;}
+#transcript_dropdown{padding: 15px; background: #dcebfb;}
+
+@media(max-width: 991px){
+    #anchor_nav nav ul{justify-content: start;}
+    #anchor_nav nav ul li{width: 50%; padding-top: 5px; padding-bottom: 5px;}
+}
+
+@media(max-width: 359px){
+    #anchor_nav nav ul li{width: 100%;}
+}
